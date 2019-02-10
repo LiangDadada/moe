@@ -3,3 +3,5 @@
 3. git commit -m ""
 4. git config --username ""
 5. git config --email ""
+6. git status
+7. git diff
