@@ -12,5 +12,5 @@ git command list
 	11.git reflog
 	12.git diff HEAD -- filename	//工作空间和版本库比较
 	13.git diff --cached			//暂存区和版本库比较
-	14.git checkout filename		//丢弃工作空间的修改
+	14.git checkout filename		//丢弃工作空间的修改（版本库替换工作区）
 	15.git raset HEAD filename		//错误修改并且add的情况下，回到add操作之前
