@@ -13,10 +13,10 @@ def find_img_addr(html):
     #pat = r'class="BDE_Image" (?:height="\d\d\d" ){0,1}pic_type="0" src="(.+\.(jpg))"'
     pat = r'src="(.{,100}\.(?:jpg|png))"'
     img_list = re.findall(pat, html)
-    '''
+    
     for each in img_list:
         print(each)
-    '''
+    
     return img_list
     
 def download_img(img_list):
