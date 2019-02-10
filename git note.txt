@@ -10,5 +10,6 @@ git command list
 	9. git reset --hard HEAD^
 	10.git reset --hard commit_id
 	11.git reflog
-	
+	12.git diff HEAD -- git note.txt
+	13.git diff --cached
 	
