@@ -5,11 +5,12 @@ git command list
 	4. git config --username ""
 	5. git config --email ""
 	6. git status
-	7. git diff
+	7. git diff		//工作空间与暂存区比较
 	8. git log
 	9. git reset --hard HEAD^
 	10.git reset --hard commit_id
 	11.git reflog
-	12.git diff HEAD -- git note.txt
-	13.git diff --cached
-	
+	12.git diff HEAD -- filename	//工作空间和版本库比较
+	13.git diff --cached			//暂存区和版本库比较
+	14.git checkout filename		//丢弃工作空间的修改
+	15.git raset HEAD filename		//错误修改并且add的情况下，回到add操作之前
