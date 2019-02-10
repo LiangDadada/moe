@@ -6,4 +6,9 @@ git command list
 	5. git config --email ""
 	6. git status
 	7. git diff
+	8. git log
+	9. git reset --hard HEAD^
+	10.git reset --hard commit_id
+	11.git reflog
+	
 	
