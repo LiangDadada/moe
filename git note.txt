@@ -18,4 +18,4 @@ git command list
 	17.ssh-keygen -t rsa -C "email address"		//生成.ssh
 	18.git remote add origin https://github.com/LiangDadada/moe.git	//关联远程库
 	19.git push -u origin master	//推送更新到远程库（-u参数仅在第一次推送时使用）
-	20.
+	20.git clone git@github.com:LiangDadada/clone-test.git
