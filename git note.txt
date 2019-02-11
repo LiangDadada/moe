@@ -15,4 +15,7 @@ git command list
 	14.git checkout filename		//丢弃工作空间的修改（版本库替换工作区）
 	15.git raset HEAD filename		//错误修改并且add的情况下，回到add操作之前
 	16.git rm filename
-	17.ssh-keygen -t rsa -C "email address"		//生成.ssh 
+	17.ssh-keygen -t rsa -C "email address"		//生成.ssh
+	18.git remote add origin https://github.com/LiangDadada/moe.git	//关联远程库
+	19.git push -u origin master	//推送更新到远程库（-u参数仅在第一次推送时使用）
+	20.
