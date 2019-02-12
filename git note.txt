@@ -19,7 +19,9 @@ git command list
 	18.git remote add origin https://github.com/LiangDadada/moe.git	//关联远程库
 	19.git push -u origin master	//推送更新到远程库（-u参数仅在第一次推送时使用）
 	20.git clone git@github.com:LiangDadada/clone-test.git
-	21.
+	21.git checkout -b new_branch_name //21=22+23
+	22.git branch new_branch_name
+	23.git checkout branch
 	
 use step:
 	1. git config --global user.name "name"
