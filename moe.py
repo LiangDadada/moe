@@ -66,6 +66,7 @@ def download_img(url):
     for each in addr_list:
         print('打开地址： '+each)
         addr_download_img(each)
+		
 if __name__ == '__main__':
     print('这是moe主模块')
     download_img('http://moe.005.tv/moeimg')
