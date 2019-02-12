@@ -46,11 +46,13 @@ def page_download_img(url):
     for each in img_list:
         #print('正在下载：'+each)
         file_name = each.split('/')[-1]
-		try:
-			ur.urlretrieve(each, file_name)
+        try:
+            ur.urlretrieve(each, file_name)
+        except KeyboardInterrupt:
+            exit()
         except:
-			print("下载图片出现异常，尝试跳过")
-		#time.sleep(1)
+            print("下载图片出现异常，尝试跳过")
+            #time.sleep(1)
         
 
 def addr_download_img(url):
